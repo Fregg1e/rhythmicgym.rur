@@ -1,9 +1,9 @@
-<header class="d-flex bg-purple">
-  <h1>Rhythmicgym</h1>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Catalog</a>
-    <a href="#">About</a>
-    <a href="#">Contacts</a>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #33a0ff;">
+    <a class="navbar-brand" href="#">Rhythmicgym</a>
+    <a class="nav-link" href="#">Active</a>
+    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="#">Disabled</a>
   </nav>
 </header>
