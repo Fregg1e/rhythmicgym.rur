@@ -13,5 +13,11 @@
   </head>
   <body>
     @include('inc.header')
+    @yield('content')
+
+    <div class="aside">
+      <h4>Боковая панель</h4>
+      <p>Это просто боковая панель</p>
+    </div>
   </body>
 </html>
