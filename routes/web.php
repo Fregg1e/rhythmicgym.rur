@@ -1,5 +1,4 @@
 <?php
 
-Route::get('/', function () {
-    return view('home.index');
-});
+use App\Http\Controllers\HomeController;
+Route::get('/', [HomeController::class, 'index']);
